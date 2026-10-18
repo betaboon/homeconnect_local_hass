@@ -90,6 +90,9 @@
       "switch_laundry_end_signal": {
         "name": "End Signal"
       },
+      "switch_laundry_drum_clean_reminder": {
+        "name": "Drum clean reminder"
+      },
       "switch_laundry_sound_mute": {
         "name": "Sound mute"
       },

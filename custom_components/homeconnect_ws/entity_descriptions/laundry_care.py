@@ -468,6 +468,12 @@ LAUNDRY_ENTITY_DESCRIPTIONS: _EntityDescriptionsDefinitionsType = {
             entity_category=EntityCategory.CONFIG,
         ),
         HCSwitchEntityDescription(
+            key="switch_laundry_drum_clean_reminder",
+            entity="LaundryCare.Washer.Setting.EnableDrumCleanReminder",
+            device_class=SwitchDeviceClass.SWITCH,
+            entity_category=EntityCategory.CONFIG,
+        ),
+        HCSwitchEntityDescription(
             key="switch_laundry_silent_mode",
             entity="LaundryCare.Common.Option.SilentMode",
             device_class=SwitchDeviceClass.SWITCH,

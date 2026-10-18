@@ -86,6 +86,9 @@
       "switch_laundry_end_signal": {
         "name": "Beendet-Ton"
       },
+      "switch_laundry_drum_clean_reminder": {
+        "name": "Trommelreinigung Erinnerung"
+      },
       "switch_laundry_sound_mute": {
         "name": "Stummschaltung"
       },
