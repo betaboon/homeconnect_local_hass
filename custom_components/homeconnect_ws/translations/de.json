@@ -1093,6 +1093,33 @@
           "spare": "Reserve"
         }
       },
+      "sensor_washer_process_phase": {
+        "name": "Prozessphase",
+        "state": {
+          "progstarted": "Programm gestartet",
+          "detergentdispensing": "Waschmittel wird dosiert",
+          "loadadjustactive": "Beladungsanpassung",
+          "prewashing": "Vorwäsche",
+          "washing": "Waschen",
+          "rinsing": "Spülen",
+          "rinsingwithaquasensor": "Spülen mit AquaSensor",
+          "extrarinsingfoam": "Zusätzliches Spülen (Schaum)",
+          "softening": "Weichspülen",
+          "waterproofing": "Imprägnieren",
+          "watercooling": "Wasser abkühlen",
+          "emptying": "Abpumpen",
+          "intermediatespinning": "Zwischenschleudern",
+          "rinsingspinning": "Spülschleudern",
+          "finalspinning": "Endschleudern",
+          "fluffing": "Auflockern",
+          "automaticdirtdetection": "Schmutzerkennung",
+          "automatictextiledetection": "Textilerkennung",
+          "dosagedetergent": "Waschmittel dosieren",
+          "dosagesoftener": "Weichspüler dosieren",
+          "soaking": "Einweichen",
+          "spare": "Reserve"
+        }
+      },
       "sensor_temperature_ambient": {
         "name": "Umgebungstemperatur"
       },

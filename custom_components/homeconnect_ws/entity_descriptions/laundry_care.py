@@ -49,6 +49,12 @@ LAUNDRY_ENTITY_DESCRIPTIONS: _EntityDescriptionsDefinitionsType = {
             has_state_translation=True,
         ),
         HCSensorEntityDescription(
+            key="sensor_washer_process_phase",
+            entity="LaundryCare.Washer.Option.ProcessPhase",
+            device_class=SensorDeviceClass.ENUM,
+            has_state_translation=True,
+        ),
+        HCSensorEntityDescription(
             key="sensor_laundry_spin_speed",
             entity="LaundryCare.Washer.Option.SpinSpeed",
             device_class=SensorDeviceClass.ENUM,

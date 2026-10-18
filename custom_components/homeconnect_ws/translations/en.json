@@ -1604,6 +1604,33 @@
           "spare": "Spare"
         }
       },
+      "sensor_washer_process_phase": {
+        "name": "Process Phase",
+        "state": {
+          "progstarted": "Program started",
+          "detergentdispensing": "Dispensing detergent",
+          "loadadjustactive": "Adjusting to load",
+          "prewashing": "Prewashing",
+          "washing": "Washing",
+          "rinsing": "Rinsing",
+          "rinsingwithaquasensor": "Rinsing with AquaSensor",
+          "extrarinsingfoam": "Extra rinsing (foam)",
+          "softening": "Softening",
+          "waterproofing": "Waterproofing",
+          "watercooling": "Cooling water",
+          "emptying": "Draining",
+          "intermediatespinning": "Intermediate spin",
+          "rinsingspinning": "Rinse spin",
+          "finalspinning": "Final spin",
+          "fluffing": "Fluffing",
+          "automaticdirtdetection": "Detecting soil",
+          "automatictextiledetection": "Detecting textile",
+          "dosagedetergent": "Dosing detergent",
+          "dosagesoftener": "Dosing softener",
+          "soaking": "Soaking",
+          "spare": "Spare"
+        }
+      },
       "sensor_temperature_ambient": {
         "name": "Ambient Temperature"
       },
