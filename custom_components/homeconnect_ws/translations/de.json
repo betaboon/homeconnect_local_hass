@@ -232,6 +232,9 @@
       "binary_remote_start_allowed": {
         "name": "Fernstart erlaubt"
       },
+      "binary_sensor_backend_connected": {
+        "name": "Cloud-Verbindung"
+      },
       "binary_sensor_refresher_level": {
         "name": "Refresher-Tank Füllstand",
         "state": {

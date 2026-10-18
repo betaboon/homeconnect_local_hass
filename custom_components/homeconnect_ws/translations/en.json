@@ -254,6 +254,9 @@
       "binary_remote_start_allowed": {
         "name": "Remote start allowed"
       },
+      "binary_sensor_backend_connected": {
+        "name": "Cloud connection"
+      },
       "binary_sensor_refresher_level": {
         "name": "Refresher fill level",
         "state": {
