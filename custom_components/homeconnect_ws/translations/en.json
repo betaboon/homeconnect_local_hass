@@ -375,6 +375,9 @@
       "binary_sensor_door_not_unlockable": {
         "name": "Door Not Unlockable"
       },
+      "binary_sensor_door_open_alert": {
+        "name": "Door Open Alert"
+      },
       "binary_sensor_fatal_error_occurred": {
         "name": "Fatal Error"
       },

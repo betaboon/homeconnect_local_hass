@@ -154,6 +154,14 @@ LAUNDRY_ENTITY_DESCRIPTIONS: _EntityDescriptionsDefinitionsType = {
             value_off={"Off"},
         ),
         HCBinarySensorEntityDescription(
+            key="binary_sensor_door_open_alert",
+            entity="LaundryCare.Common.Event.DoorOpen",
+            entity_category=EntityCategory.DIAGNOSTIC,
+            device_class=BinarySensorDeviceClass.PROBLEM,
+            value_on={"Present", "Confirmed"},
+            value_off={"Off"},
+        ),
+        HCBinarySensorEntityDescription(
             key="binary_sensor_fatal_error_occurred",
             entity="LaundryCare.Common.Event.FatalErrorOccured",
             entity_category=EntityCategory.DIAGNOSTIC,
