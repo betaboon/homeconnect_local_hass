@@ -238,6 +238,9 @@
       "binary_sensor_local_control_active": {
         "name": "Lokale Bedienung aktiv"
       },
+      "binary_sensor_remote_control_active": {
+        "name": "Fernsteuerung aktiv"
+      },
       "binary_sensor_refresher_level": {
         "name": "Refresher-Tank Füllstand",
         "state": {

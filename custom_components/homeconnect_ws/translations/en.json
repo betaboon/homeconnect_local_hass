@@ -260,6 +260,9 @@
       "binary_sensor_local_control_active": {
         "name": "Local control active"
       },
+      "binary_sensor_remote_control_active": {
+        "name": "Remote control active"
+      },
       "binary_sensor_refresher_level": {
         "name": "Refresher fill level",
         "state": {
