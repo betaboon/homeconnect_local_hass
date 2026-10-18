@@ -396,6 +396,9 @@
       "binary_sensor_pump_error": {
         "name": "Pumpenfehler"
       },
+      "binary_sensor_dispenser_tray": {
+        "name": "Waschmittelschublade"
+      },
       "binary_sensor_spin_abort": {
         "name": "Schleudern abgebrochen"
       },

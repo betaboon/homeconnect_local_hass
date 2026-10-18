@@ -205,6 +205,14 @@ LAUNDRY_ENTITY_DESCRIPTIONS: _EntityDescriptionsDefinitionsType = {
             value_off={"Off"},
         ),
         HCBinarySensorEntityDescription(
+            key="binary_sensor_dispenser_tray",
+            entity="LaundryCare.Washer.Event.DispenserTray",
+            entity_category=EntityCategory.DIAGNOSTIC,
+            device_class=BinarySensorDeviceClass.PROBLEM,
+            value_on={"Present", "Confirmed"},
+            value_off={"Off"},
+        ),
+        HCBinarySensorEntityDescription(
             key="binary_sensor_spin_abort",
             entity="LaundryCare.Washer.Event.Spin.SpinAbort",
             entity_category=EntityCategory.DIAGNOSTIC,
