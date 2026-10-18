@@ -251,6 +251,12 @@ COMMON_ENTITY_DESCRIPTIONS: _EntityDescriptionsDefinitionsType = {
             entity_category=EntityCategory.DIAGNOSTIC,
         ),
         HCBinarySensorEntityDescription(
+            key="binary_sensor_local_control_active",
+            entity="BSH.Common.Status.LocalControlActive",
+            entity_registry_enabled_default=False,
+            entity_category=EntityCategory.DIAGNOSTIC,
+        ),
+        HCBinarySensorEntityDescription(
             key="binary_sensor_program_aborted",
             entity="BSH.Common.Event.ProgramAborted",
             entity_category=EntityCategory.DIAGNOSTIC,
