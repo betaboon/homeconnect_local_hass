@@ -259,6 +259,14 @@ COMMON_ENTITY_DESCRIPTIONS: _EntityDescriptionsDefinitionsType = {
             value_off={"Off"},
         ),
         HCBinarySensorEntityDescription(
+            key="binary_sensor_software_update_available",
+            entity="BSH.Common.Event.SoftwareUpdateAvailable",
+            entity_category=EntityCategory.DIAGNOSTIC,
+            device_class=BinarySensorDeviceClass.UPDATE,
+            value_on={"Present", "Confirmed"},
+            value_off={"Off"},
+        ),
+        HCBinarySensorEntityDescription(
             key="binary_sensor_interior_illumination",
             entity="BSH.Common.Status.InteriorIlluminationActive",
             entity_category=EntityCategory.DIAGNOSTIC,

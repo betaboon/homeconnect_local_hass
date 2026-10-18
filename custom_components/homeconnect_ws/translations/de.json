@@ -297,6 +297,9 @@
       "binary_sensor_program_finished": {
         "name": "Programm beendet"
       },
+      "binary_sensor_software_update_available": {
+        "name": "Softwareupdate verfügbar"
+      },
       "binary_sensor_low_voltage": {
         "name": "Niederspannung"
       },

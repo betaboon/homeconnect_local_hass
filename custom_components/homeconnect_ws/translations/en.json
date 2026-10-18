@@ -357,6 +357,9 @@
       "binary_sensor_program_finished": {
         "name": "Program Finished"
       },
+      "binary_sensor_software_update_available": {
+        "name": "Software Update Available"
+      },
       "binary_sensor_program_aborted": {
         "name": "Program Aborted"
       },
